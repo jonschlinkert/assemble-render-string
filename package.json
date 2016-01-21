@@ -1,0 +1,50 @@
+{
+  "name": "assemble-render-string",
+  "description": "Assemble plugin that adds a `.renderString` method for rendering a string with any registered engine.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/assemble-render-string",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/assemble-render-string",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/assemble-render-string/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "assemble-core": "^0.8.3",
+    "engine-base": "^0.1.2",
+    "mocha": "*"
+  },
+  "verb": {
+    "related": {
+      "list": [
+        "assemble",
+        "assemble-permalinks",
+        "assemble-render-file",
+        "verb"
+      ]
+    },
+    "layout": "default",
+    "plugins": [
+      "gulp-format-md"
+    ]
+  },
+  "keywords": [
+    "assemble",
+    "assembleplugin",
+    "engine",
+    "plugin",
+    "render",
+    "string",
+    "templates"
+  ]
+}
